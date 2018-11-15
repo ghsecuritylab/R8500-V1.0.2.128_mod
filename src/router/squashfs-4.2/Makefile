@@ -112,11 +112,12 @@ MKSQUASHFS_OBJS = mksquashfs.o read_fs.o sort.o swap.o pseudo.o compressor.o
 UNSQUASHFS_OBJS = unsquashfs.o unsquash-1.o unsquash-2.o unsquash-3.o \
 	unsquash-4.o swap.o compressor.o
 
-CFLAGS ?= -O2
+CFLAGS ?= -O2 -m32 -L/usr/lib32
 CFLAGS += $(EXTRA_CFLAGS) $(INCLUDEDIR) -D_FILE_OFFSET_BITS=64 \
 	-D_LARGEFILE_SOURCE -D_GNU_SOURCE -DCOMP_DEFAULT=\"$(COMP_DEFAULT)\" \
 	-Wall
-	
+
+LDFLAGS ?= -m32 -L/usr/lib32
 LIBS = -lpthread -lm
 ifeq ($(GZIP_SUPPORT),1)
 CFLAGS += -DGZIP_SUPPORT
@@ -212,7 +213,7 @@ all: mksquashfs unsquashfs check_lzma
 
 xz_config:
 	[ -f $(XZ_DIR)/src/liblzma/.libs/liblzma.a ] || ( \
-	cd  $(XZ_DIR) && ./configure --prefix=$(shell pwd) --enable-shared=no \
+	cd  $(XZ_DIR) && CFLAGS="-m32 -L/usr/lib32" ./configure --prefix=$(shell pwd) --enable-shared=no \
 	)
 	cd $(SQUASHFS_DIR)
 
