@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ===================
  Install toolchain
 ===================
@@ -25,3 +26,6 @@
         cd R8500-V1.0.2.128_1.0.97_src/src/router/
         make PROFILE=R7800 FW_TYPE=WW ARCH=arm PLT=arm LINUX_VERSION=2_6_36
         make install PROFILE=R7800 FW_TYPE=WW ARCH=arm PLT=arm LINUX_VERSION=2_6_36
+=======
+# R8500-V1.0.2.128_mod
+>>>>>>> 6e4d5c76cd1139ad316a8b8a66a258b4547c9520
