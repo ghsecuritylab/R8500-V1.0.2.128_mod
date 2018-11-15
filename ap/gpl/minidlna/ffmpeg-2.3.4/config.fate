@@ -1,0 +1,1 @@
+config:arm:armv7a:armv7-a:linux:gcc 4.5.3 (Buildroot 2012.02):--enable-shared --enable-gpl --arch=arm --cc=arm-brcm-linux-uclibcgnueabi-gcc --enable-cross-compile --disable-muxers --disable-encoders --disable-filters --arch=arm --target_os=linux --extra-cflags=-fPIC

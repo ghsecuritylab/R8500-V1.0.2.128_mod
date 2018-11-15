@@ -1,0 +1,5 @@
+#!/opt/r8500/ap/gpl/samba4/samba-4.4.3/python_arm/bin/python2.7
+
+from idlelib.PyShell import main
+if __name__ == '__main__':
+    main()

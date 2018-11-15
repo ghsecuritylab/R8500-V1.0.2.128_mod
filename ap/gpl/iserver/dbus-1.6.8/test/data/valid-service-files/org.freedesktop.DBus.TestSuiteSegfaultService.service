@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteSegfaultService
+Exec=/opt/r8500/ap/gpl/iserver/dbus-1.6.8/test/test-segfault
+

@@ -1,0 +1,94 @@
+9
+
+dir
+119151
+svn://db-server2/SVN_WAP/U12H334_R7800/release/V1.0.2.128_1.0.97/main/ap/gpl/dnsmasq-2.78/contrib
+svn://db-server2/SVN_WAP
+
+
+
+2018-03-27T01:13:32.786490Z
+112596
+louis.chen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+248a7523-3418-9045-aa70-fdced63d2d2f
+
+Suse
+dir
+
+dnslist
+dir
+
+slackware-dnsmasq
+dir
+
+webmin
+dir
+
+conntrack
+dir
+
+openvpn
+dir
+
+port-forward
+dir
+
+lease-tools
+dir
+
+lease-access
+dir
+
+dynamic-dnsmasq
+dir
+
+systemd
+dir
+
+CPE-WAN
+dir
+
+reverse-dns
+dir
+
+dns-loc
+dir
+
+try-all-ns
+dir
+
+MacOSX-launchd
+dir
+
+dnsmasq_MacOSX-pre10.4
+dir
+
+static-arp
+dir
+
+mactable
+dir
+
+dbus-test
+dir
+
+wrt
+dir
+
+Solaris10
+dir
+

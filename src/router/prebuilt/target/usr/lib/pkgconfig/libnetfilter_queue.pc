@@ -1,0 +1,16 @@
+# libnetfilter_queue pkg-config file
+
+prefix=/home/kate/Netgear_R8500/R8500-V1.0.2.128_1.0.97_clean/main/components/opensource/netfilter/libnetfilter_queue/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnetfilter_queue
+Description: netfilter userspace packet queueing library
+URL: http://netfilter.org/projects/libnetfilter_queue/
+Version: 1.0.2
+Requires: libnfnetlink
+Conflicts:
+Libs: -L${libdir} -lnetfilter_queue
+Libs.private: -L/home/kate/Netgear_R8500/R8500-V1.0.2.128_1.0.97_clean/main/components/opensource/netfilter/libnfnetlink/install/lib -lnfnetlink
+Cflags: -I${includedir}

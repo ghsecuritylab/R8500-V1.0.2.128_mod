@@ -1,0 +1,2 @@
+set CC_FOR_TARGET "arm-uclibc-linux-2.6.36-gcc"
+set CXX_FOR_TARGET "arm-brcm-linux-uclibcgnueabi-g++"

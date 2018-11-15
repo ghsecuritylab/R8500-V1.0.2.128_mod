@@ -1,0 +1,1 @@
+config:arm::generic:linux:gcc 4.5.3 (Buildroot 2012.02):--prefix=/usr --arch=arm --target-os=linux --cc=arm-brcm-linux-uclibcgnueabi-gcc --enable-cross-compile --disable-static --enable-shared

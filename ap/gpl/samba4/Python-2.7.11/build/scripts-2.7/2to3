@@ -1,0 +1,5 @@
+#!/opt/r8500/ap/gpl/samba4/samba-4.4.3/python_arm/bin/python2.7
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))
